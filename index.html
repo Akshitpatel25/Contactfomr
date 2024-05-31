@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Form</title>
+
+  <!-- css link -->
+  <link rel="stylesheet" href="/assets/style.css">
+  <!--  -->
+
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap"
+    rel="stylesheet">
+  <!--  -->
+
+</head>
+
+<body>
+
+  <div class="main_container">
+    <div class="success_msg">
+      <div class="svg_msg" style="display: flex; column-gap: 10px; justify-content: center; align-items: center;">
+        <img src="/assets/images/icon-success-check.svg" alt="success_check">
+        <h6 style="color: white;">Message Sent!</h6>
+      </div>
+      <pre style="color: white; font-weight: 100;">Thank you for completing the form. We'll be in touch soon!</pre>
+    </div>
+    <div class="main_box">
+      <form>
+        <h1>Contact Us</h1>
+
+        <div class="name">
+          <div class="names">
+            <label for="firstname">First name *</label>
+            <input type="text" id="firstname">
+            <p class="firstname_field">This field is required</p>
+          </div>
+
+          <div class="names">
+            <label for="lastname">last name *</label>
+            <input type="text" id="lastname">
+            <p class="lastname_field">This field is required</p>
+          </div>
+        </div>
+
+        <div class="email_box">
+          <label for="email">Email Address *</label>
+          <input type="email" id="email">
+          <p class="email_field">Please enter a valid email address</p>
+        </div>
+
+        <div class="query">
+          <label for="query">Query Type *</label>
+          <div class="querytype">
+            <div class="option_1">
+              <input type="radio" id="option1" name="querytype">
+              <label for="option1">General Query</label>
+            </div>
+            <div class="option_2">
+              <input type="radio" id="option2" name="querytype">
+              <label for="option2">Support Query</label>
+            </div>
+          </div>
+          <p class="query_field">Please select a query type</p>
+        </div>
+
+        <div class="message_box">
+          <label for="message">Message *</label>
+          <textarea name="message" id="message"></textarea>
+          <p class="message_field">This field is required</p>
+        </div>
+
+        <div class="check_box">
+          <div>
+            <input type="checkbox" name="checkbox" id="checkbox">
+            <label for="check_box">I consent to bring contacted by team *</label>
+          </div>
+          <p class="checkbox_field">To submit this form,please consent to being contacted</p>
+        </div>
+
+        <button>Submit</button>
+
+      </form>
+
+
+
+    </div>
+  </div>
+
+  <script src="/assets/script.js"></script>
+</body>
+
+</html>
