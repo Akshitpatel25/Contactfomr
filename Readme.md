@@ -28,8 +28,8 @@
 
 ### Links
 
-- Live URl : [Add Live URl] (https://03aa57ac.contactform-2q5.pages.dev/)
-- Solution URL: [Add solution URL here](https://github.com/Akshitpatel25/Contactform)
+- Live URl : (https://03aa57ac.contactform-2q5.pages.dev/)
+- Solution URL: (https://github.com/Akshitpatel25/Contactform)
 
 ## Acknowledgments
 
